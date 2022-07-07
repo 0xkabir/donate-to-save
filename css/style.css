@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+.top{
+    margin: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.8)), url("/donate-to-save/assets/banner.jpg");
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.motto{
+    width: 60%;
+    margin: auto;
+    padding-top: 150px;
+    color: white;
+    text-align: center;
+}
+.motto p{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.link-btn{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 700;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+.receiver {
+    width: 60%;
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+}
+.receiver h2{
+    padding-top: 100px;
+}
+
+.receiver p{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.amount-selector{
+    margin: 30px 0;
+    display: flex;
+}
+
+.amount{
+    margin: 0 10px;
+    padding: 40px 0px;
+    width: 150px;
+    background-color: rgb(236, 235, 235);
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight:800;
+}
+
+#amount-selected{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: rgb(248, 232, 229);
+}
+
+#other{
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.donate-plan {
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    text-align: center;
+}
+
+.donate-plan h2{
+    padding-top: 75px;
+}
+
+#donate-text{
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.plans{
+    display: flex;
+}
+
+.plan{
+    text-align: left;
+    width: 300px;
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin: 0px 20px;
+}
+
+.plan h3{
+    margin: 15px 0px;
+}
+
+#plan1 {
+    background-color: rgb(224, 245, 245);
+}
+
+#plan2 {
+    background-color: rgb(248, 228, 232);
+}
+
+#plan3 {
+    background-color: rgb(248, 226, 222);
+}
+
+.experiences {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+.experiences h2{
+    padding-top: 150px;
+}
+
+#exp-container{
+    width: 60%;
+    padding: 30px 10px;
+    margin: auto;
+} 
+
+.experience-container {
+    padding-top: 30px;
+    display: flex;
+}
+
+.experience {
+    text-align: center;
+    background-color: aqua;
+    width: 300px;
+    border-radius: 5px;
+    padding: 50px 20px;
+    margin: 0px 20px;
+}
+
+.experience h3{
+    margin: 15px 0px;
+}
+
+#experience1 {
+    background-color: rgb(248, 226, 222);
+}
+
+#experience2 {
+    background-color: rgb(248, 228, 232);
+}
+
+#experience3 {
+    background-color: rgb(224, 245, 245);
+}
+
+.updates{
+    height: 100vh;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.updates h2{
+    padding-top: 150px;
+}
+
+.updates p{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+.form-container{
+    height: 200px;
+    border-radius: 5px;
+    background-color: rgb(250, 227, 223);
+}
+
+.form-container form{
+    padding-top: 75px;
+    width: 50%;
+    margin: auto;
+}
+
+.form-container form input{
+    height: 45px;
+    width: 57.5%;
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(175, 174, 174);
+    display: inline;
+}
+
+.form-container button{
+    background-color: tomato;
+    color: white;
+    font-weight: 500;
+    height: 45px;
+    width: 40%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: inline;
+    float: right;
+}
+
+footer{
+    height: 150px;
+    background-color: rgb(7, 10, 19);
+    color: white;
+    text-align: center;
+}
+
+footer h3{
+    font-size: 30px;
+    font-weight: 300;
+    padding: 35px 0px 20px 0px;
+    font-family: 'Lobster', cursive;
+    color: tomato;
+}
